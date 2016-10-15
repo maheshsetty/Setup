@@ -1,0 +1,112 @@
+                                                          -:SVN SETUP:-
+-----------------------------------------------------------------------------------------------------------------------------------
+Goto bitnami-subversion-Select All Subversion Installers -Linux OS-Right click Copy link adress
+
+mahesh@mahesh-virtual-machine:~$ wget https://bitnami.com/redirect/to/127862/bitnami-subversion-1.9.4-1-linux-x64-installer.run
+
+mahesh@mahesh-virtual-machine:~$ chmod 755 bitnami-subversion-1.9.4-1-linux-x64-installer.run
+
+mahesh@mahesh-virtual-machine:~$ ./bitnami-subversion-1.9.4-1-linux-x64-instal                                                        ler.run
+----------------------------------------------------------------------------
+Welcome to the Bitnami Subversion Stack Setup Wizard.
+
+----------------------------------------------------------------------------
+Installation folder
+
+Please, choose a folder to install Bitnami Subversion Stack
+
+Select a folder [/home/mahesh/subversion-1.9.4-1]:
+
+----------------------------------------------------------------------------
+Web Server Port
+
+Choose a port that is not currently in use, such as port 8081.
+
+Apache Web Server Port [8081]:
+
+----------------------------------------------------------------------------
+Repository
+
+Please configure your repository
+
+Path to repository [/home/mahesh/subversion-1.9.4-1/repository]:
+
+----------------------------------------------------------------------------
+Setup is now ready to begin installing Bitnami Subversion Stack on your
+computer.
+
+Do you want to continue? [Y/n]: y
+
+----------------------------------------------------------------------------
+Please wait while Setup installs Bitnami Subversion Stack on your computer.
+
+ Installing
+ 0% ______________ 50% ______________ 100%
+ #########################################
+
+----------------------------------------------------------------------------
+Setup has finished installing Bitnami Subversion Stack on your computer.
+
+Launch Bitnami Subversion Stack [Y/n]: y
+
+Setup has finished installing Bitnami Subversion Stack on your computer.
+
+Subversion is working or not you will check once:-
+---------------------------------------------------
+
+mahesh@mahesh-virtual-machine:~$ls 
+mahesh@mahesh-virtual-machine:~$ cd subversion-1.9.4-1/
+mahesh@mahesh-virtual-machine:~/subversion-1.9.4-1$ ls -la
+total 11176
+drwxrwxr-x 11 mahesh mahesh    4096 Oct 15 17:03 .
+drwxr-xr-x 32 mahesh mahesh    4096 Oct 15 17:02 ..
+drwxr-xr-x 14 mahesh mahesh    4096 Oct 15 17:02 apache2
+-rw-r--r--  1 mahesh mahesh    2631 Oct 15 17:02 changelog.txt
+drwxrwxr-x 11 mahesh mahesh    4096 Oct 15 17:01 common
+drwxrwxr-x  4 mahesh mahesh    4096 Oct 15 17:02 config
+-rwxr-xr-x  1 mahesh mahesh   50485 Oct 15 17:02 ctlscript.sh
+drwxr-xr-x  2 mahesh mahesh    4096 Oct 15 17:02 img
+drwxr-xr-x  2 mahesh mahesh    4096 Oct 15 17:01 licenses
+-rwx------  1 mahesh mahesh 3183524 Sep 14 17:44 manager-linux-x64.run
+-rwx------  1 mahesh mahesh     672 Oct 15 17:02 properties.ini
+-rw-r--r--  1 mahesh mahesh    8131 Oct 15 17:02 README.txt
+drwxrwxr-x  6 mahesh mahesh    4096 Oct 15 17:02 repository
+drwxrwxr-x  2 mahesh mahesh    4096 Oct 15 17:02 scripts
+drwxrwxr-x  5 mahesh mahesh    4096 Oct 15 17:02 sqlite
+drwxrwxr-x  9 mahesh mahesh    4096 Oct 15 17:02 subversion
+-rwx------  1 mahesh mahesh 8019907 Oct 15 17:03 uninstall
+-rw-------  1 mahesh mahesh  115422 Oct 15 17:03 uninstall.dat
+-rwxr--r--  1 mahesh mahesh     323 Oct 15 17:02 use_subversion
+mahesh@mahesh-virtual-machine:~/subversion-1.9.4-1$ ./ctlscript.sh status
+subversion already running
+apache already running
+mahesh@mahesh-virtual-machine:~/subversion-1.9.4-1$
+
+How to restart subversion:-
+-------------------------------
+mahesh@mahesh-virtual-machine:~/subversion-1.9.4-1$./ctlscript.sh restart
+
+How acess subversion:-
+-----------------------------------
+Next you will go to browser type 192.168.118.193:8081/subversion/      (enter)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
