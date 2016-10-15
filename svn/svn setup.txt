@@ -1,5 +1,7 @@
                                                           -:SVN SETUP:-
 -----------------------------------------------------------------------------------------------------------------------------------
+Server side installation (Linux):-
+
 Goto bitnami-subversion-Select All Subversion Installers -Linux OS-Right click Copy link adress
 
 mahesh@mahesh-virtual-machine:~$ wget https://bitnami.com/redirect/to/127862/bitnami-subversion-1.9.4-1-linux-x64-installer.run
@@ -17,7 +19,7 @@ Please, choose a folder to install Bitnami Subversion Stack
 
 Select a folder [/home/mahesh/subversion-1.9.4-1]:
 
-----------------------------------------------------------------------------
+----------------------------------------------------------------------------:
 Web Server Port
 
 Choose a port that is not currently in use, such as port 8081.
@@ -89,6 +91,26 @@ mahesh@mahesh-virtual-machine:~/subversion-1.9.4-1$./ctlscript.sh restart
 How acess subversion:-
 -----------------------------------
 Next you will go to browser type 192.168.118.193:8081/subversion/      (enter)
+
+How to restart subversion:-
+-------------------------------
+mahesh@mahesh-virtual-machine:~/subversion-1.9.4-1$./ctlscript.sh restart
+
+How acess subversion:-
+-----------------------------------
+Next you will go to browser type 192.168.118.193:8081/subversion/      (enter)
+
+
+---------------------------------------------------------------------------------------------------
+Client side installation (windows,mac):-
+----------------------------------------------------------------------------------------------------
+Download suversion client side
+
+https://sourceforge.net/projects/win32svn/ 
+
+Just instal next->next->finesh
+
+Just you will check vn instal or not goto command line ---->svn --version
 
 
 
